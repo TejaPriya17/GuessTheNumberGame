@@ -1,14 +1,5 @@
 'use strict';
 
-// console.log(document.querySelector('.message').textContent);
-// document.querySelector('.message').textContent = "Correct Number";
-// console.log(document.querySelector('.message').textContent);
-
-// document.querySelector('.number').textContent="NO";
-// console.log(document.querySelector('.number').textContent="NO");
-
-// document.querySelector('.guess').value="14";
-// console.log(document.querySelector('.guess').value);
 
 let secrectNumber= Math.trunc(Math.random()*20)+1;
 
@@ -87,6 +78,7 @@ document.querySelector(".again").addEventListener('click', function()
 
 });
 
+//Here I AM USING ESCAPE KEY INSTEAD OF ENTER KEY TO TAKE IN THE INPUT
 document.addEventListener('keydown',function(object)
 {
     console.log(object.key);
